@@ -1,7 +1,7 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask ('Olá ')
 
 @app.route('/')
 def ola():
-    return "ola mundo, me chamo kennedy da paixao sales"
+    return render_template('ola.html')
