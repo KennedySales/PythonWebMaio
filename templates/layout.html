@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteudo_principal">
+        <h1>
+            Blog aula ocean
+        </h1>
+        <div class="nav">
+            {%if not session.logados%}
+            <a href="">Login</a>
+            {%else%}
+            <a href="">Logout</a>
+        </div>
+    </div>
+</body>
+</html>
